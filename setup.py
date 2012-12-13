@@ -13,7 +13,7 @@ def get_data_files(dirname):
             flist.append(osp.join(dirpath, fname))
     return flist
 
-setup(name='PyQtdoc', version='4.7.2',
+setup(name='PyQtdoc', version='4.8.4',
       description='PyQtdoc installs Qt documentation for PyQt4',
       long_description="""PyQtdoc installs Qt official documentation 
 (.ch files, i.e. Qt assitant format) in PyQt4 directory""",
